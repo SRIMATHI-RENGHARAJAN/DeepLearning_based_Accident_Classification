@@ -1,12 +1,16 @@
 # Accident Classification Using Deep Learning
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
-A CNN-based binary image classifier for automated accident detection from traffic imagery.
+This project implements a CNN-based binary image classification system for automated accident detection from traffic surveillance imagery. The model classifies images into Accident and Non-Accident categories using a deep convolutional architecture with batch normalization for improved performance. By eliminating manual monitoring, the system enables faster incident detection and supports efficient traffic management and emergency response.
 
 ## Table of Contents
 
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-- [Tech Stack](#tech-stack)
 - [Model Architecture](#model-architecture)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -17,23 +21,9 @@ A CNN-based binary image classifier for automated accident detection from traffi
 - [Contibuting](#contributing)
 - [License](#license)
 
-## Problem Statement
 
-Manual monitoring of traffic surveillance systems is inefficient and cannot scale for real-time accident detection. This project automates accident identification to reduce emergency response times and improve traffic management.
 
-## Solution
 
-A deep CNN-based binary classifier that categorizes traffic images as "Accident" or "Non-Accident" using a multi-layer convolutional architecture with batch normalization and model checkpointing.
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
 ## Model Architecture
 
@@ -83,8 +73,8 @@ dataset/
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/accident-classification.git
-cd accident-classification
+git clone https://github.com/SRIMATHI-RENGHARAJAN/DeepLearning_based_Accident_Classification.git
+cd DeepLearning_based_Accident_Classification
 pip install numpy pandas matplotlib tensorflow keras
 ```
 
@@ -111,8 +101,7 @@ Accident_Classification/
 │   ├── train/
 │   ├── val/
 │   └── test/
-├── model.json
-├── model_weights.h5
+├── requirements.txt
 └── README.md
 ```
 
@@ -143,7 +132,7 @@ Contributions are welcome!
 4. Push: `git push origin feature/YourFeature`
 5. Submit pull request
 
----
+
 
 ## Author
 
@@ -152,9 +141,8 @@ Contributions are welcome!
 - Linkedin: https://www.linkedin.com/in/srimathi-rengharajan/
 
 
----
 
 ## License
 
-MIT License - Use for educational and commercial purposes with proper attribution.
+Use for educational and commercial purposes with proper attribution.
 
